@@ -5,14 +5,14 @@ switch ($r[1])
     case 'page1':
         $htmlTitle = '111';
         $pageTitle = '111';
-        $pageTitle = ' some php code as string ';
+        $phpCode = ' some php code as string ';
         include('template.html');
         break;
   
     case 'page2':
         $htmlTitle = '222';
         $pageTitle = '222';
-        $pageTitle = ' some php code as string ';
+        $phpCode = ' some php code as string ';
         include('template.html');
         break;
   
